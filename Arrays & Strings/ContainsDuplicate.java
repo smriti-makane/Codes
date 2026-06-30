@@ -6,7 +6,7 @@ class ContainsDuplicate{
         int j = 1; 
         while(j< nums.length){
             if(nums[i]==nums[j]){
-                return true; 
+                return true;  
             }
             i++;
             j--; 
